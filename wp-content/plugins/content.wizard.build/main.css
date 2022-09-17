@@ -1,0 +1,384 @@
+.red {
+	background:#dd0000 !important;	
+}
+input[type=submit], input[type=button] {
+	cursor:pointer;
+}
+.admin-wrap, .admin-wrap p, .admin-wrap span, input, textarea, select, option {
+	font-size:20px;
+	line-height:23px;
+}
+h2 {
+	font-size:28px;
+	text-transform:capitalize;
+}
+.card {
+	min-height:390px;
+	box-sizing:border-box;
+}
+body .admin-wrap .head {
+	width:240px;
+	display:inline-block;
+	vertical-align:top;
+}
+.body {
+	display:inline-block;
+}
+.body input {
+	display:inline-block;
+	width:500px;
+}
+.body input[type=checkbox] {
+	display:inline-block;
+	width:auto;
+}
+input, textarea, select {
+	border:1px solid #000 !important;
+}
+.body.save {
+	text-align:right;
+}
+.body textarea {
+	clear:left;
+	width:500px;
+	height:130px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+.add-ct, .add-ct:focus {
+	background: #33aa33;
+	color: #fff;
+	text-shadow:1px 1px solid #000;
+	font-weight:bold;
+	text-align:center;
+	width:250px;
+	display:inline-block;
+	text-decoration:none;
+	padding:10px;
+	float:right;
+	clear:left;
+	margin:0 0 0 10px;
+}
+.add-ct.add-ct-click {
+	margin-top:20px;
+}
+.add-ct:hover {
+	color:#fff;
+}
+.save input{
+	background: #33aa33;
+	color: #fff;
+	text-shadow:1px 1px solid #000;
+	font-weight:bold;
+	height:50px;
+	width:150px;
+	cursor:pointer;
+}
+
+.run input{
+	height:50px;
+	background: #3333ff;
+	text-shadow:1px 1px solid #000;
+	font-weight:bold;
+	color: #fff;
+	width:200px;
+	cursor:pointer;
+}
+.card {
+	clear:left;
+	float:left;
+	max-width:100%;
+	width:100%;
+	margin-right:30px;
+	box-sizing:border-box;
+}
+.card.double {
+	width:930px;
+	min-height:350px;
+	box-sizing:border-box;
+}
+.options{
+	padding:20px;
+	clear:left;
+	display:block;
+}
+.nav a {
+	float:left;
+	display:block;
+	width:230px;
+	max-width:100%;
+	background: #ccc;
+	padding:10px;
+	text-decoration:none;
+	text-align:center;
+	font-size:16px;
+	color: #670c5f;
+	font-weight:bold;
+}
+.nav a:hover, .nav a.selected {
+	color: #ff0cff;
+	background: #ddd;
+}
+.nav a.selected {
+	border:2px solid #0000ff;
+}
+.admin-wrap select {
+	height:auto;
+	margin:0;
+	padding:0;
+	
+}
+.save-wrapper {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.box-map, .box-container {
+	border: 1px solid #444;
+	padding:20px 20px 20px 20px;
+	margin-bottom:10px;
+}
+body .box-map {
+	border:none;
+	padding:0;
+}
+body .box-container{
+	position:relative;
+	padding-bottom:50px;
+}
+body .box-container .ct-opt {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+.box-container h2 {
+	margin:0 0 10px 0;
+	background: #f3f3f3;
+	padding:10px;
+	cursor:pointer;
+}
+.field-map {
+	max-width:100%;
+	width: 180px;
+	box-sizing:border-box;
+	padding-right:20px;
+}
+.box-container .body .selector {
+	width: 300px;
+	vertical-align:top;
+}
+#ctt {
+	float:right;
+	margin-top:20px;
+}
+body .add-ct.add-field, body .add-ct.del-field,{
+	margin:0 0 0 10px;
+}
+.del {
+	color: #880000;
+}
+body h2 .arrow-point {
+	font-size:30px;
+}
+.progress-box {
+	margin-top:100px;
+	clear:both;
+}
+.crawled .total, .mapped .total {
+	line-height:25px;
+	height:25px;
+	display:inline-block;
+	width:500px;
+	background: #ff0000;
+	border: 1px solid #000;
+}
+.crawled .progress, .mapped .progress {
+	line-height:25px;
+	height:25px;
+	display:inline-block;
+	width:0;
+	background: #00ff00;
+}
+
+.progress-box .crawled, .progress-box .mapped, .progress-box .key {
+	padding-top:40px;
+	width:238px;
+	height:170px;
+	text-align:center;
+	border:1px solid #000;
+	box-sizing: border-box;
+	margin-right:20px;
+	float:left;
+}
+.progress-box .crawled .crawled-count, .progress-box .mapped .mapped-count, .progress-box .key .tokens-count {
+	margin-top: 20px;
+	font-size:50px;
+	font-weight:bold;
+	box-sizing: border-box;
+}
+.head-f {
+	display: block;
+	margin-bottom:20px;
+}
+.wiz-pick {
+	display: inline-block;
+	height:26px;
+	width:26px;
+	padding:4px;
+	box-sizing:border-box;
+	margin: 0 10px;
+}
+.wiz-pick img {
+	display: inline-block;
+	height:23px;
+	width:23px;
+}
+
+body .ui-widget-overlay {
+	background: #000;
+	opacity: .5;
+}
+
+.taglist {
+	margin-bottom:20px;
+}
+
+#wizsetter {
+	display:inline-block;
+	width:150px;
+}
+
+#savefilter {
+	display:inline-block;
+	width:150px;
+	background: #009900;
+	color:#fff;
+	font-weight:bold;
+}
+
+#magicframe {
+	margin-top:20px;
+}
+
+#magicfile, #taglist, #wizsetter, #tag, #savefilter {
+	font-size:20px;
+	line-height:24px;
+	height:40px;
+}
+
+
+/*Combo box */
+#combo-wrap .options, .combo-wrap .options {
+	border-top:1px solid #000;
+	background: #fff;
+	padding: 0;
+	z-index: 999;
+	border-bottom: 1px solid #000;
+}
+#combo-wrap .options a, .combo-wrap .options a {
+	background: #fff;
+	display:block;
+	padding: 3px;
+	clear:both;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	border-bottom:1px solid #000;
+	text-decoration:none;
+}
+body .admin-wrap .combo-wrap .options {
+	top: 34px;
+}
+#combo-wrap .options a:hover, .combo-wrap .options a:hover {
+	background: #ddffdd;
+}
+#combo-wrap h3, .combo-wrap h3 {
+	margin: 0;
+	font-size: 20px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding:5px;
+}
+
+.combo-wrap .drop-select {
+	width: 30px;
+	height: 29px;
+	border: 1px solid #000;
+	font-size: 30px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+}
+.output-tabs {
+	float:right;
+	max-width:400px;
+    margin-top: 14px;
+	margin-right:20px;
+}
+.output-tabs a {
+	float:right;
+	width:150px;
+	text-align:center;
+	background: #acacac;
+	display:inline-block;
+	padding:10px;
+	margin-left:20px;
+	font-size:20px;
+	text-decoration:none;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	color: #fff;
+}
+
+.output-tabs a.selected {
+	color: #000;
+	background: #ccffcc;
+}
+
+.info-ico {
+	border-radius: 20px;
+	background: #ccc;
+	color: #fff;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	cursor: help;	
+}
+
+.ui-autocomplete-category {
+	font-weight: bold;
+	padding: .2em .4em;
+	margin: .8em 0 .2em;
+	line-height: 1.5;
+}
+body UL.jqueryFileTree A {
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+body #filesNfolders {
+	border: 1px solid #000;
+	padding: 20px;
+}
+body UL.jqueryFileTree {
+	padding-left: 20px;
+}
+
+body UL.jqueryFileTree A {
+	display: inline-block;
+}
+
+body UL.jqueryFileTree .chkfile {
+	margin-left:-40px;
+}
+
+body .stop-button-crawl a.button, body .stop-button-map  a.button {
+	display:block;
+	background: #aa0000 !important;
+	margin-top: 15px;
+	color: #fff !important;
+	font-weight:bold;
+}
